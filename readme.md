@@ -128,9 +128,10 @@ Make sure you have the following installed:
 
 ## 🚀 Installation Steps
 
+```bash
 ### 1. Clone the Repository
 
-```bash
+
 
 ### 2. Install PHP Dependencies
 
