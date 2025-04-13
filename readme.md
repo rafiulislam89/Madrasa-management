@@ -1,35 +1,4 @@
-
 ## **Laravel School/Madrasa Management System** 
-# Laravel Project Setup Guide
-
-Welcome! This README will guide you through setting up and running this Laravel project on your local development environment.
-
-## 📦 Requirements
-
-Make sure you have the following installed:
-
-- PHP >= 8.1
-- Composer
-- Laravel CLI (optional)
-- MySQL 
-- Git
-
----
-
-## 🚀 Installation Steps
-
-### 1. Clone the Repository
-
-```bash
-
-### 2. Install PHP Dependencies
-
-composer install
-
-### 3. Create Environment File
-Copy the .env.example file to .env:
-
-cp .env.example .env
 
 **LAVSMS** is developed for educational institutions like schools and colleges built on Laravel 8
 
@@ -141,7 +110,46 @@ After seeding. Login details as follows:
 Your Contributions & suggestions are welcomed. Please use Pull Request
 
 
+# Laravel Project Setup Guide
 
+Welcome! This README will guide you through setting up and running this Laravel project on your local development environment.
+
+## 📦 Requirements
+
+Make sure you have the following installed:
+
+- PHP >= 8.1
+- Composer
+- Laravel CLI (optional)
+- MySQL 
+- Git
+
+---
+
+## 🚀 Installation Steps
+
+### 1. Clone the Repository
+
+```bash
+
+### 2. Install PHP Dependencies
+
+composer install
+
+### 3. Create Environment File
+Copy the .env.example file to .env:
+
+cp .env.example .env
+
+### 4.Configure Environment Variables
+Open .env and set your local database configuration:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
 ### **Security Vulnerabilities**
 
 If you discover a security vulnerability within LAV_SMS, please send an e-mail to CJ Inspired via cjay.pub@gmail.com. All security vulnerabilities will be promptly addressed.
