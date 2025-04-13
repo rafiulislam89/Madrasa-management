@@ -1,4 +1,35 @@
-## **Laravel School Management System** 
+
+## **Laravel School/Madrasa Management System** 
+# Laravel Project Setup Guide
+
+Welcome! This README will guide you through setting up and running this Laravel project on your local development environment.
+
+## 📦 Requirements
+
+Make sure you have the following installed:
+
+- PHP >= 8.1
+- Composer
+- Laravel CLI (optional)
+- MySQL 
+- Git
+
+---
+
+## 🚀 Installation Steps
+
+### 1. Clone the Repository
+
+```bash
+
+### 2. Install PHP Dependencies
+
+composer install
+
+### 3. Create Environment File
+Copy the .env.example file to .env:
+
+cp .env.example .env
 
 **LAVSMS** is developed for educational institutions like schools and colleges built on Laravel 8
 
@@ -109,35 +140,6 @@ After seeding. Login details as follows:
 
 Your Contributions & suggestions are welcomed. Please use Pull Request
 
-# Laravel Project Setup Guide
-
-Welcome! This README will guide you through setting up and running this Laravel project on your local development environment.
-
-## 📦 Requirements
-
-Make sure you have the following installed:
-
-- PHP >= 8.1
-- Composer
-- Laravel CLI (optional)
-- MySQL 
-- Git
-
----
-
-## 🚀 Installation Steps
-
-### 1. Clone the Repository
-
-```bash
-
-###2. Install PHP Dependencies
-bash
-Copy
-Edit
-composer install
-
-###
 
 
 ### **Security Vulnerabilities**
