@@ -120,8 +120,7 @@ Make sure you have the following installed:
 - PHP >= 8.1
 - Composer
 - Laravel CLI (optional)
-- MySQL / MariaDB / SQLite / PostgreSQL
-- Node.js and npm (for frontend assets, if applicable)
+- MySQL 
 - Git
 
 ---
@@ -132,6 +131,13 @@ Make sure you have the following installed:
 
 ```bash
 
+###2. Install PHP Dependencies
+bash
+Copy
+Edit
+composer install
+
+###
 
 
 ### **Security Vulnerabilities**
