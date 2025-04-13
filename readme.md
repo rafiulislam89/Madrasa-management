@@ -109,6 +109,31 @@ After seeding. Login details as follows:
 
 Your Contributions & suggestions are welcomed. Please use Pull Request
 
+# Laravel Project Setup Guide
+
+Welcome! This README will guide you through setting up and running this Laravel project on your local development environment.
+
+## 📦 Requirements
+
+Make sure you have the following installed:
+
+- PHP >= 8.1
+- Composer
+- Laravel CLI (optional)
+- MySQL / MariaDB / SQLite / PostgreSQL
+- Node.js and npm (for frontend assets, if applicable)
+- Git
+
+---
+
+## 🚀 Installation Steps
+
+### 1. Clone the Repository
+
+```bash
+
+
+
 ### **Security Vulnerabilities**
 
 If you discover a security vulnerability within LAV_SMS, please send an e-mail to CJ Inspired via cjay.pub@gmail.com. All security vulnerabilities will be promptly addressed.
